@@ -20,7 +20,7 @@ const Home = () => {
     restaurants,
     showVegOnly,
   } = useSelector((state) => state.restaurants);
-
+//hello
   useEffect(() => {
     if (restaurantsError) {
       return alert.error(restaurantsError);
