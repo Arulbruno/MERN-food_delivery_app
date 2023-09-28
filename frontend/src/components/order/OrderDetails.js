@@ -16,7 +16,7 @@ const OrderDetails = ({}) => {
     loading,
     error,
     order = {},
-  } = useSelector((state) => state.orderDetails);
+  } = useSelector((state) => state.OrderDetails);
   const {
     deliveryInfo,
     orderItems,
@@ -24,7 +24,7 @@ const OrderDetails = ({}) => {
     user,
     finalTotal,
     orderStatus,
-  } = order;
+  } = order;  
   useEffect(() => {
     dispatch(getOrderDetails(id));
     if (error) {
