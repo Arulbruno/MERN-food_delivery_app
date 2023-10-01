@@ -16,5 +16,5 @@ root.render(
     <AlertProvider template={AlertTemplate} {...option}>
       <App />
     </AlertProvider>
-  </Provider>
+  </Provider>                                                                                                                                   
 );
