@@ -120,6 +120,17 @@ const Register = () => {
                 onChange={onChange}
               ></input>
             </div>
+            {/* <div className="form-group">
+              <label htmlFor="passwordConfirm_field">Password Confirm</label>
+              <input
+                type="password"
+                id="passwordConfirm_field"
+                className="form-control"
+                name="passwordConfirm"
+                value={passwordConfirm}
+                onChange={onChange}
+              ></input>
+            </div> */}
 
             <div className="form-group">
               <label htmlFor="phoneNumber_field">Phone Number</label>
